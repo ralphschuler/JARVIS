@@ -1,7 +1,7 @@
 
 FROM nvidia/cuda:latest as BASE
 
-WORKSPACE /app
+WORKDIR /app
 
 COPY . /app
 
